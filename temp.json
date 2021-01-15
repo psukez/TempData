@@ -1,0 +1,119 @@
+{
+   "graph": {
+      "title": "Living",
+      "datasequences": [
+         {
+            "color": "red",
+            "title": "Tempertura",
+            "datapoints": [
+               {
+                  "value": "28.20",
+                  "title": "03:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "04:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "05:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "06:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "06:29"
+               },
+               {
+                  "value": "29.30",
+                  "title": "07:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "08:00"
+               },
+               {
+                  "value": "29.30",
+                  "title": "09:00"
+               },
+               {
+                  "value": "30.40",
+                  "title": "10:00"
+               },
+               {
+                  "value": "30.40",
+                  "title": "11:00"
+               },
+               {
+                  "value": "31.50",
+                  "title": "12:00"
+               },
+               {
+                  "value": "31.50",
+                  "title": "13:00"
+               }
+            ]
+         },
+         {
+            "color": "blue",
+            "title": "Humedad",
+            "datapoints": [
+               {
+                  "value": "38.60",
+                  "title": "03:00"
+               },
+               {
+                  "value": "37.50",
+                  "title": "04:00"
+               },
+               {
+                  "value": "37.50",
+                  "title": "05:00"
+               },
+               {
+                  "value": "37.90",
+                  "title": "06:00"
+               },
+               {
+                  "value": "37.90",
+                  "title": "06:29"
+               },
+               {
+                  "value": "36.70",
+                  "title": "07:00"
+               },
+               {
+                  "value": "36.70",
+                  "title": "08:00"
+               },
+               {
+                  "value": "36.70",
+                  "title": "09:00"
+               },
+               {
+                  "value": "36.70",
+                  "title": "10:00"
+               },
+               {
+                  "value": "37.90",
+                  "title": "11:00"
+               },
+               {
+                  "value": "36.80",
+                  "title": "12:00"
+               },
+               {
+                  "value": "36.80",
+                  "title": "13:00"
+               }
+            ]
+         }
+      ],
+      "type": "line",
+      "yAxis": {
+         "minValue": 15
+      }
+   }
+}
