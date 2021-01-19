@@ -2,55 +2,56 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
                {
-                  "value": "2",
-                  "title": "2021-01-18"
-               },
-               {
-                  "value": "2",
+                  "value": "5",
                   "title": "2021-01-18"
                },
                {
                   "value": "2",
                   "title": "2021-01-18"
                }
-            ],
-            "title": "Santiago"
+            ]
          },
          {
+            "title": "El Bosque",
             "datapoints": [
                {
-                  "value": "2",
-                  "title": "2021-01-18"
-               },
-               {
-                  "value": "2",
+                  "value": "5",
                   "title": "2021-01-18"
                },
                {
                   "value": "2",
                   "title": "2021-01-18"
                }
-            ],
-            "title": "El Bosque"
+            ]
          },
          {
+            "title": "Concepcion",
             "datapoints": [
                {
-                  "value": "1",
-                  "title": "2021-01-18"
-               },
-               {
-                  "value": "1",
+                  "value": "5",
                   "title": "2021-01-18"
                },
                {
                   "value": "1",
                   "title": "2021-01-18"
                }
-            ],
-            "title": "Concepcion"
+            ]
+         },
+         {
+            "title": "Calama",
+            "datapoints": [
+               {
+                  "value": "5",
+                  "title": "2021-01-18"
+               },
+               {
+                  "value": "2",
+                  "title": "2021-01-18"
+               }
+            ]
          }
       ],
       "title": "comunas"
