@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/pi/TempData/StepByStep
-python /home/pi/TempData/StepByStep/stepByStep.py
+cd /home/pi/Code/TempData/StepByStep
+python /home/pi/Code/TempData/StepByStep/stepByStep.py

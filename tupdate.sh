@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/pi/TempData
-python /home/pi/TempData/tempUpdate.py
+cd /home/pi/Code/TempData
+python /home/pi/Code/TempData/tempUpdate.py
 

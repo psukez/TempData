@@ -8,7 +8,7 @@ import subprocess as cmd
 #borrado de csv antiguo y descarga del nuevo
 cmd.call("rm paso.csv",shell=True)
 url = "https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto74/paso_a_paso.csv"
-wget.download(url, '/home/pi/TempData/StepByStep/paso.csv')
+wget.download(url, '/home/pi/Code/TempData/StepByStep/paso.csv')
 
 #funcion que chequea estado del archivo
 def file_accessible(filepath, mode):
@@ -36,7 +36,7 @@ EsradoVar4 = "1"
 tiempo = "fecha"
 
 #acceso y lectura de archivo csv al array data
-file1="/home/pi/TempData/StepByStep/paso.csv"
+file1="/home/pi/Code/TempData/StepByStep/paso.csv"
 Csvfile = file_accessible(file1, "r")
 if Csvfile:
     with open (file1) as csvfile:
@@ -75,7 +75,7 @@ if comuna in col:
             EstadoVar4 = data[x][-1] 
 
 #verificacion del archivo Json
-file2="/home/pi/TempData/StepByStep/gauge.json"
+file2="/home/pi/Code/TempData/StepByStep/gauge.json"
 JsonFile = file_accessible(file2, "r")
 
 #modificacion archivo Json
