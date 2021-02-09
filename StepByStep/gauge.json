@@ -2,12 +2,7 @@
    "gauge": {
       "datasequences": [
          {
-            "title": "Santiago",
             "datapoints": [
-               {
-                  "value": "2",
-                  "title": "2021-02-01"
-               },
                {
                   "value": "2",
                   "title": "2021-02-04"
@@ -15,16 +10,16 @@
                {
                   "value": "2",
                   "title": "2021-02-08"
-               }
-            ]
-         },
-         {
-            "title": "El Bosque",
-            "datapoints": [
+               },
                {
                   "value": "2",
-                  "title": "2021-02-01"
-               },
+                  "title": "2021-02-08"
+               }
+            ],
+            "title": "Santiago"
+         },
+         {
+            "datapoints": [
                {
                   "value": "2",
                   "title": "2021-02-04"
@@ -32,16 +27,16 @@
                {
                   "value": "2",
                   "title": "2021-02-08"
+               },
+               {
+                  "value": "2",
+                  "title": "2021-02-08"
                }
-            ]
+            ],
+            "title": "El Bosque"
          },
          {
-            "title": "Concepcion",
             "datapoints": [
-               {
-                  "value": "1",
-                  "title": "2021-02-01"
-               },
                {
                   "value": "1",
                   "title": "2021-02-04"
@@ -49,16 +44,16 @@
                {
                   "value": "1",
                   "title": "2021-02-08"
+               },
+               {
+                  "value": "1",
+                  "title": "2021-02-08"
                }
-            ]
+            ],
+            "title": "Concepcion"
          },
          {
-            "title": "Calama",
             "datapoints": [
-               {
-                  "value": "2",
-                  "title": "2021-02-01"
-               },
                {
                   "value": "2",
                   "title": "2021-02-04"
@@ -66,8 +61,13 @@
                {
                   "value": "2",
                   "title": "2021-02-08"
+               },
+               {
+                  "value": "2",
+                  "title": "2021-02-08"
                }
-            ]
+            ],
+            "title": "Calama"
          }
       ],
       "title": "comunas"
