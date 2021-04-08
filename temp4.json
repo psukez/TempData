@@ -1,120 +1,120 @@
 {
    "graph": {
-      "title": "Balcon",
-      "datasequences": [
-         {
-            "color": "red",
-            "title": "Temperatura",
-            "datapoints": [
-               {
-                  "value": "27.80",
-                  "title": "16:10"
-               },
-               {
-                  "value": "25.60",
-                  "title": "16:20"
-               },
-               {
-                  "value": "25.60",
-                  "title": "16:30"
-               },
-               {
-                  "value": "25.60",
-                  "title": "16:40"
-               },
-               {
-                  "value": "24.50",
-                  "title": "16:50"
-               },
-               {
-                  "value": "24.50",
-                  "title": "17:00"
-               },
-               {
-                  "value": "23.40",
-                  "title": "17:10"
-               },
-               {
-                  "value": "23.40",
-                  "title": "17:20"
-               },
-               {
-                  "value": "22.20",
-                  "title": "17:30"
-               },
-               {
-                  "value": "22.20",
-                  "title": "17:40"
-               },
-               {
-                  "value": "22.20",
-                  "title": "17:50"
-               },
-               {
-                  "value": "22.20",
-                  "title": "18:00"
-               }
-            ]
-         },
-         {
-            "color": "blue",
-            "title": "Humedad",
-            "datapoints": [
-               {
-                  "value": "33.30",
-                  "title": "16:10"
-               },
-               {
-                  "value": "32.20",
-                  "title": "16:20"
-               },
-               {
-                  "value": "32.20",
-                  "title": "16:30"
-               },
-               {
-                  "value": "32.20",
-                  "title": "16:40"
-               },
-               {
-                  "value": "31.10",
-                  "title": "16:50"
-               },
-               {
-                  "value": "31.10",
-                  "title": "17:00"
-               },
-               {
-                  "value": "31.10",
-                  "title": "17:10"
-               },
-               {
-                  "value": "30.00",
-                  "title": "17:20"
-               },
-               {
-                  "value": "30.00",
-                  "title": "17:30"
-               },
-               {
-                  "value": "30.00",
-                  "title": "17:40"
-               },
-               {
-                  "value": "28.90",
-                  "title": "17:50"
-               },
-               {
-                  "value": "28.90",
-                  "title": "18:00"
-               }
-            ]
-         }
-      ],
-      "type": "line",
       "yAxis": {
          "maxValue": 55,
          "minValue": 10
-      }
+      },
+      "datasequences": [
+         {
+            "color": "red",
+            "datapoints": [
+               {
+                  "value": "25.60",
+                  "title": "16:20"
+               },
+               {
+                  "value": "25.60",
+                  "title": "16:30"
+               },
+               {
+                  "value": "25.60",
+                  "title": "16:40"
+               },
+               {
+                  "value": "24.50",
+                  "title": "16:50"
+               },
+               {
+                  "value": "24.50",
+                  "title": "17:00"
+               },
+               {
+                  "value": "23.40",
+                  "title": "17:10"
+               },
+               {
+                  "value": "23.40",
+                  "title": "17:20"
+               },
+               {
+                  "value": "22.20",
+                  "title": "17:30"
+               },
+               {
+                  "value": "22.20",
+                  "title": "17:40"
+               },
+               {
+                  "value": "22.20",
+                  "title": "17:50"
+               },
+               {
+                  "value": "22.20",
+                  "title": "18:00"
+               },
+               {
+                  "value": "21.10",
+                  "title": "18:10"
+               },
+               {
+                  "value": "21.10",
+                  "title": "18:20"
+               }
+            ],
+            "title": "Temperatura"
+         },
+         {
+            "color": "blue",
+            "datapoints": [
+               {
+                  "value": "32.20",
+                  "title": "16:30"
+               },
+               {
+                  "value": "32.20",
+                  "title": "16:40"
+               },
+               {
+                  "value": "31.10",
+                  "title": "16:50"
+               },
+               {
+                  "value": "31.10",
+                  "title": "17:00"
+               },
+               {
+                  "value": "31.10",
+                  "title": "17:10"
+               },
+               {
+                  "value": "30.00",
+                  "title": "17:20"
+               },
+               {
+                  "value": "30.00",
+                  "title": "17:30"
+               },
+               {
+                  "value": "30.00",
+                  "title": "17:40"
+               },
+               {
+                  "value": "28.90",
+                  "title": "17:50"
+               },
+               {
+                  "value": "28.90",
+                  "title": "18:00"
+               },
+               {
+                  "value": "28.90",
+                  "title": "18:10"
+               }
+            ],
+            "title": "Humedad"
+         }
+      ],
+      "type": "line",
+      "title": "Balcon"
    }
 }
