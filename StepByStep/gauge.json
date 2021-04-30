@@ -2,7 +2,6 @@
    "gauge": {
       "datasequences": [
          {
-            "title": "Santiago",
             "datapoints": [
                {
                   "value": "1",
@@ -10,16 +9,16 @@
                },
                {
                   "value": "1",
-                  "title": "2021-04-22"
+                  "title": "2021-04-29"
                },
                {
                   "value": "1",
                   "title": "2021-04-29"
                }
-            ]
+            ],
+            "title": "Santiago"
          },
          {
-            "title": "El Bosque",
             "datapoints": [
                {
                   "value": "1",
@@ -27,16 +26,16 @@
                },
                {
                   "value": "1",
-                  "title": "2021-04-22"
+                  "title": "2021-04-29"
                },
                {
                   "value": "1",
                   "title": "2021-04-29"
                }
-            ]
+            ],
+            "title": "El Bosque"
          },
          {
-            "title": "Concepcion",
             "datapoints": [
                {
                   "value": "1",
@@ -44,16 +43,16 @@
                },
                {
                   "value": "1",
-                  "title": "2021-04-22"
+                  "title": "2021-04-29"
                },
                {
                   "value": "1",
                   "title": "2021-04-29"
                }
-            ]
+            ],
+            "title": "Concepcion"
          },
          {
-            "title": "Calama",
             "datapoints": [
                {
                   "value": "1",
@@ -61,13 +60,14 @@
                },
                {
                   "value": "1",
-                  "title": "2021-04-22"
+                  "title": "2021-04-29"
                },
                {
                   "value": "1",
                   "title": "2021-04-29"
                }
-            ]
+            ],
+            "title": "Calama"
          }
       ],
       "title": "comunas"
