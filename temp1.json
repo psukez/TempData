@@ -1,120 +1,120 @@
 {
    "graph": {
-      "title": "Living",
-      "datasequences": [
-         {
-            "color": "red",
-            "title": "Temperatura",
-            "datapoints": [
-               {
-                  "value": "24.40",
-                  "title": "11:40"
-               },
-               {
-                  "value": "24.40",
-                  "title": "11:50"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:00"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:10"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:20"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:30"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:40"
-               },
-               {
-                  "value": "24.40",
-                  "title": "12:50"
-               },
-               {
-                  "value": "24.40",
-                  "title": "13:00"
-               },
-               {
-                  "value": "24.40",
-                  "title": "13:10"
-               },
-               {
-                  "value": "24.40",
-                  "title": "13:20"
-               },
-               {
-                  "value": "24.40",
-                  "title": "13:30"
-               }
-            ]
-         },
-         {
-            "color": "blue",
-            "title": "Humedad",
-            "datapoints": [
-               {
-                  "value": "32.10",
-                  "title": "11:40"
-               },
-               {
-                  "value": "32.10",
-                  "title": "11:50"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:00"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:10"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:20"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:30"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:40"
-               },
-               {
-                  "value": "32.10",
-                  "title": "12:50"
-               },
-               {
-                  "value": "32.10",
-                  "title": "13:00"
-               },
-               {
-                  "value": "32.10",
-                  "title": "13:10"
-               },
-               {
-                  "value": "32.10",
-                  "title": "13:20"
-               },
-               {
-                  "value": "32.10",
-                  "title": "13:30"
-               }
-            ]
-         }
-      ],
-      "type": "line",
       "yAxis": {
          "maxValue": 55,
          "minValue": 15
-      }
+      },
+      "datasequences": [
+         {
+            "color": "red",
+            "datapoints": [
+               {
+                  "value": "24.40",
+                  "title": "11:50"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:00"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:10"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:20"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:30"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:40"
+               },
+               {
+                  "value": "24.40",
+                  "title": "12:50"
+               },
+               {
+                  "value": "24.40",
+                  "title": "13:00"
+               },
+               {
+                  "value": "24.40",
+                  "title": "13:10"
+               },
+               {
+                  "value": "24.40",
+                  "title": "13:20"
+               },
+               {
+                  "value": "24.40",
+                  "title": "13:30"
+               },
+               {
+                  "value": "24.40",
+                  "title": "13:40"
+               }
+            ],
+            "title": "Temperatura"
+         },
+         {
+            "color": "blue",
+            "datapoints": [
+               {
+                  "value": "32.10",
+                  "title": "12:00"
+               },
+               {
+                  "value": "32.10",
+                  "title": "12:10"
+               },
+               {
+                  "value": "32.10",
+                  "title": "12:20"
+               },
+               {
+                  "value": "32.10",
+                  "title": "12:30"
+               },
+               {
+                  "value": "32.10",
+                  "title": "12:40"
+               },
+               {
+                  "value": "32.10",
+                  "title": "12:50"
+               },
+               {
+                  "value": "32.10",
+                  "title": "13:00"
+               },
+               {
+                  "value": "32.10",
+                  "title": "13:10"
+               },
+               {
+                  "value": "32.10",
+                  "title": "13:20"
+               },
+               {
+                  "value": "32.10",
+                  "title": "13:30"
+               },
+               {
+                  "value": "32.10",
+                  "title": "13:40"
+               },
+               {
+                  "value": "31.00",
+                  "title": "13:40"
+               }
+            ],
+            "title": "Humedad"
+         }
+      ],
+      "type": "line",
+      "title": "Living"
    }
 }
