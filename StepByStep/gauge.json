@@ -2,12 +2,7 @@
    "gauge": {
       "datasequences": [
          {
-            "title": "Santiago",
             "datapoints": [
-               {
-                  "value": "2",
-                  "title": "2021-07-12"
-               },
                {
                   "value": "2",
                   "title": "2021-07-12"
@@ -15,16 +10,16 @@
                {
                   "value": "1",
                   "title": "2021-07-15"
+               },
+               {
+                  "value": "1",
+                  "title": "2021-07-15"
                }
-            ]
+            ],
+            "title": "Santiago"
          },
          {
-            "title": "El Bosque",
             "datapoints": [
-               {
-                  "value": "2",
-                  "title": "2021-07-12"
-               },
                {
                   "value": "2",
                   "title": "2021-07-12"
@@ -32,16 +27,16 @@
                {
                   "value": "1",
                   "title": "2021-07-15"
+               },
+               {
+                  "value": "1",
+                  "title": "2021-07-15"
                }
-            ]
+            ],
+            "title": "El Bosque"
          },
          {
-            "title": "Concepcion",
             "datapoints": [
-               {
-                  "value": "3",
-                  "title": "2021-07-12"
-               },
                {
                   "value": "3",
                   "title": "2021-07-12"
@@ -49,11 +44,15 @@
                {
                   "value": "1",
                   "title": "2021-07-15"
+               },
+               {
+                  "value": "1",
+                  "title": "2021-07-15"
                }
-            ]
+            ],
+            "title": "Concepcion"
          },
          {
-            "title": "Calama",
             "datapoints": [
                {
                   "value": "3",
@@ -63,7 +62,8 @@
                   "value": "3",
                   "title": "2021-07-12"
                }
-            ]
+            ],
+            "title": "Calama"
          }
       ],
       "title": "comunas"
