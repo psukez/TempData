@@ -2,11 +2,8 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
-               {
-                  "value": "3",
-                  "title": "2021-07-24"
-               },
                {
                   "value": "3",
                   "title": "2021-07-24"
@@ -14,16 +11,16 @@
                {
                   "value": "3",
                   "title": "2021-07-28"
-               }
-            ],
-            "title": "Santiago"
-         },
-         {
-            "datapoints": [
+               },
                {
                   "value": "3",
-                  "title": "2021-07-24"
-               },
+                  "title": "2021-07-28"
+               }
+            ]
+         },
+         {
+            "title": "El Bosque",
+            "datapoints": [
                {
                   "value": "3",
                   "title": "2021-07-24"
@@ -31,16 +28,16 @@
                {
                   "value": "3",
                   "title": "2021-07-28"
-               }
-            ],
-            "title": "El Bosque"
-         },
-         {
-            "datapoints": [
+               },
                {
                   "value": "3",
-                  "title": "2021-07-24"
-               },
+                  "title": "2021-07-28"
+               }
+            ]
+         },
+         {
+            "title": "Concepcion",
+            "datapoints": [
                {
                   "value": "3",
                   "title": "2021-07-24"
@@ -48,16 +45,16 @@
                {
                   "value": "3",
                   "title": "2021-07-28"
-               }
-            ],
-            "title": "Concepcion"
-         },
-         {
-            "datapoints": [
+               },
                {
                   "value": "3",
-                  "title": "2021-07-24"
-               },
+                  "title": "2021-07-28"
+               }
+            ]
+         },
+         {
+            "title": "Calama",
+            "datapoints": [
                {
                   "value": "3",
                   "title": "2021-07-24"
@@ -65,9 +62,12 @@
                {
                   "value": "4",
                   "title": "2021-07-28"
+               },
+               {
+                  "value": "4",
+                  "title": "2021-07-28"
                }
-            ],
-            "title": "Calama"
+            ]
          }
       ],
       "title": "comunas"
