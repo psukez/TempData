@@ -2,6 +2,7 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
                {
                   "value": "3",
@@ -9,16 +10,16 @@
                },
                {
                   "value": "3",
-                  "title": "2021-11-03"
+                  "title": "2021-11-06"
                },
                {
                   "value": "3",
                   "title": "2021-11-06"
                }
-            ],
-            "title": "Santiago"
+            ]
          },
          {
+            "title": "El Bosque",
             "datapoints": [
                {
                   "value": "3",
@@ -26,16 +27,16 @@
                },
                {
                   "value": "3",
-                  "title": "2021-11-03"
+                  "title": "2021-11-06"
                },
                {
                   "value": "3",
                   "title": "2021-11-06"
                }
-            ],
-            "title": "El Bosque"
+            ]
          },
          {
+            "title": "Concepcion",
             "datapoints": [
                {
                   "value": "4",
@@ -43,16 +44,16 @@
                },
                {
                   "value": "4",
-                  "title": "2021-11-03"
+                  "title": "2021-11-06"
                },
                {
                   "value": "4",
                   "title": "2021-11-06"
                }
-            ],
-            "title": "Concepcion"
+            ]
          },
          {
+            "title": "Calama",
             "datapoints": [
                {
                   "value": "4",
@@ -60,14 +61,13 @@
                },
                {
                   "value": "4",
-                  "title": "2021-11-03"
+                  "title": "2021-11-06"
                },
                {
                   "value": "4",
                   "title": "2021-11-06"
                }
-            ],
-            "title": "Calama"
+            ]
          }
       ],
       "title": "comunas"
