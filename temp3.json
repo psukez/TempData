@@ -1,12 +1,10 @@
 {
    "graph": {
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      },
+      "title": "Pieza Pipe",
       "datasequences": [
          {
             "color": "red",
+            "title": "Temperatura",
             "datapoints": [
                {
                   "value": "26.1",
@@ -26,10 +24,6 @@
                },
                {
                   "value": "26.1",
-                  "title": "04:00"
-               },
-               {
-                  "value": "26.1",
                   "title": "05:00"
                },
                {
@@ -51,6 +45,10 @@
                {
                   "value": "26.0",
                   "title": "05:00"
+               },
+               {
+                  "value": "26.0",
+                  "title": "06:00"
                },
                {
                   "value": "26.0",
@@ -60,11 +58,11 @@
                   "value": "26.0",
                   "title": "06:00"
                }
-            ],
-            "title": "Temperatura"
+            ]
          },
          {
             "color": "blue",
+            "title": "Humedad",
             "datapoints": [
                {
                   "value": "36.9",
@@ -75,10 +73,6 @@
                   "title": "04:00"
                },
                {
-                  "value": "36.9",
-                  "title": "04:00"
-               },
-               {
                   "value": "37.5",
                   "title": "04:00"
                },
@@ -112,17 +106,23 @@
                },
                {
                   "value": "37.6",
+                  "title": "06:00"
+               },
+               {
+                  "value": "37.5",
                   "title": "06:00"
                },
                {
                   "value": "37.5",
                   "title": "06:00"
                }
-            ],
-            "title": "Humedad"
+            ]
          }
       ],
       "type": "line",
-      "title": "Pieza Pipe"
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      }
    }
 }
