@@ -55,7 +55,7 @@ def on_message(client, userdata, msg):
         strtemp = str(msg.payload)
         positionTemp=strtemp.index('Temperature')
         valorTemp = strtemp[positionTemp+13:positionTemp+17]
-        print (valorTemp)
+       # print (valorTemp)
         data_line["graph"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':valorTemp})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
@@ -64,7 +64,7 @@ def on_message(client, userdata, msg):
         strhum = str(msg.payload)
         positionHum=strtemp.index('Humidity')
         valorHum = strtemp[positionHum+10:positionHum+14]
-        print (valorHum)
+       # print (valorHum)
         data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
