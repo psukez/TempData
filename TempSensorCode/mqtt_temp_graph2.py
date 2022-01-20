@@ -36,9 +36,9 @@ def on_message(client, userdata, msg):
     grafVar2 = "Humedad"
     color2 = "blue"
     minVal = 15
-    tiempofinal= (datetime.datetime.now()) #- datetime.timedelta(minutes=1))
+    #tiempofinal= (datetime.datetime.now()) #- datetime.timedelta(minutes=1))
     #print tiempofinal.strftime("%H:%M")
-    tiempo=tiempofinal.strftime("%H")+ ":00"
+    tiempo=(time.strftime("%H:%M"))   #tiempofinal.strftime("%H")+ ":00"
     if eFile:
       with open(file, "r+") as newEntry:
        data_line = json.load(newEntry)
@@ -83,5 +83,5 @@ client.on_message = on_message
 
 client.connect("192.168.1.133", 1883, 60)
 client.loop_start()
-time.sleep (300)
+time.sleep (180)
 client.loop_stop(force=False)
