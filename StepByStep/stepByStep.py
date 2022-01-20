@@ -44,14 +44,16 @@ if Csvfile:
         for row in reader:
             data.append(row)
 tiempo = data[0][-1]
-print (tiempo)
+#print (' ' + tiempo)
+
 #Busca cada comuna en el array data y obtiene el ultimo estado
 comuna = Santiago
 col = [x[2] for x in data]
 if comuna in col:
     for x in range(0,len(data)):
         if comuna == data[x][2]:
-            EstadoVar1 = data[x][-1] 
+            EstadoVar1 = data[x][-1]
+	   # print (' ' + comuna + ' ' + EstadoVar1)
 
 comuna = ElBosque
 col = [x[2] for x in data]
@@ -59,6 +61,7 @@ if comuna in col:
     for x in range(0,len(data)):
         if comuna == data[x][2]:
             EstadoVar2 = data[x][-1] 
+            # print (' ' + comuna + ' ' + EstadoVar2)
 
 comuna = Concepcion
 col = [x[2] for x in data]
@@ -66,6 +69,7 @@ if comuna in col:
     for x in range(0,len(data)):
         if comuna == data[x][2]:
             EstadoVar3 = data[x][-1] 
+           # print (' ' + comuna + ' ' + EstadoVar3)
 
 comuna = Calama
 col = [x[2] for x in data]
@@ -73,6 +77,7 @@ if comuna in col:
     for x in range(0,len(data)):
         if comuna == data[x][2]:
             EstadoVar4 = data[x][-1] 
+            # print (' ' + comuna + ' ' + EstadoVar4)
 
 #verificacion del archivo Json
 file2="/home/pi/Code/TempData/StepByStep/gauge.json"
@@ -113,6 +118,7 @@ if JsonFile:
         newEntry.seek(0) 
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
+
 #creacion de archivo Json en caso de que no exista 
 else:
     EstadoVar1 = "5"
