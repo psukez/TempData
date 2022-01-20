@@ -44,7 +44,7 @@ if Csvfile:
         for row in reader:
             data.append(row)
 tiempo = data[0][-1]
-
+print (tiempo)
 #Busca cada comuna en el array data y obtiene el ultimo estado
 comuna = Santiago
 col = [x[2] for x in data]
