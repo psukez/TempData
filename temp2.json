@@ -1,128 +1,128 @@
 {
    "graph": {
-      "title": "Recamara",
-      "datasequences": [
-         {
-            "color": "red",
-            "title": "Temperatura",
-            "datapoints": [
-               {
-                  "value": "26.9",
-                  "title": "06:40"
-               },
-               {
-                  "value": "26.9",
-                  "title": "06:50"
-               },
-               {
-                  "value": "26.9",
-                  "title": "07:00"
-               },
-               {
-                  "value": "26.9",
-                  "title": "07:10"
-               },
-               {
-                  "value": "26.9",
-                  "title": "07:20"
-               },
-               {
-                  "value": "26.8",
-                  "title": "07:30"
-               },
-               {
-                  "value": "26.8",
-                  "title": "07:40"
-               },
-               {
-                  "value": "26.8",
-                  "title": "07:50"
-               },
-               {
-                  "value": "26.8",
-                  "title": "08:00"
-               },
-               {
-                  "value": "26.8",
-                  "title": "08:10"
-               },
-               {
-                  "value": "26.8",
-                  "title": "08:20"
-               },
-               {
-                  "value": "26.8",
-                  "title": "08:30"
-               },
-               {
-                  "value": "26.9",
-                  "title": "08:40"
-               }
-            ]
-         },
-         {
-            "color": "blue",
-            "title": "Humedad",
-            "datapoints": [
-               {
-                  "value": "41.6",
-                  "title": "06:40"
-               },
-               {
-                  "value": "41.9",
-                  "title": "06:50"
-               },
-               {
-                  "value": "41.4",
-                  "title": "07:00"
-               },
-               {
-                  "value": "41.5",
-                  "title": "07:10"
-               },
-               {
-                  "value": "41.4",
-                  "title": "07:20"
-               },
-               {
-                  "value": "41.8",
-                  "title": "07:30"
-               },
-               {
-                  "value": "41.5",
-                  "title": "07:40"
-               },
-               {
-                  "value": "41.4",
-                  "title": "07:50"
-               },
-               {
-                  "value": "41.9",
-                  "title": "08:00"
-               },
-               {
-                  "value": "41.8",
-                  "title": "08:10"
-               },
-               {
-                  "value": "42.0",
-                  "title": "08:20"
-               },
-               {
-                  "value": "41.6",
-                  "title": "08:30"
-               },
-               {
-                  "value": "42.0",
-                  "title": "08:40"
-               }
-            ]
-         }
-      ],
-      "type": "line",
       "yAxis": {
          "maxValue": 55,
          "minValue": 15
-      }
+      },
+      "datasequences": [
+         {
+            "color": "red",
+            "datapoints": [
+               {
+                  "value": "26.9",
+                  "title": "06:50"
+               },
+               {
+                  "value": "26.9",
+                  "title": "07:00"
+               },
+               {
+                  "value": "26.9",
+                  "title": "07:10"
+               },
+               {
+                  "value": "26.9",
+                  "title": "07:20"
+               },
+               {
+                  "value": "26.8",
+                  "title": "07:30"
+               },
+               {
+                  "value": "26.8",
+                  "title": "07:40"
+               },
+               {
+                  "value": "26.8",
+                  "title": "07:50"
+               },
+               {
+                  "value": "26.8",
+                  "title": "08:00"
+               },
+               {
+                  "value": "26.8",
+                  "title": "08:10"
+               },
+               {
+                  "value": "26.8",
+                  "title": "08:20"
+               },
+               {
+                  "value": "26.8",
+                  "title": "08:30"
+               },
+               {
+                  "value": "26.9",
+                  "title": "08:40"
+               },
+               {
+                  "value": "26.9",
+                  "title": "08:50"
+               }
+            ],
+            "title": "Temperatura"
+         },
+         {
+            "color": "blue",
+            "datapoints": [
+               {
+                  "value": "41.9",
+                  "title": "06:50"
+               },
+               {
+                  "value": "41.4",
+                  "title": "07:00"
+               },
+               {
+                  "value": "41.5",
+                  "title": "07:10"
+               },
+               {
+                  "value": "41.4",
+                  "title": "07:20"
+               },
+               {
+                  "value": "41.8",
+                  "title": "07:30"
+               },
+               {
+                  "value": "41.5",
+                  "title": "07:40"
+               },
+               {
+                  "value": "41.4",
+                  "title": "07:50"
+               },
+               {
+                  "value": "41.9",
+                  "title": "08:00"
+               },
+               {
+                  "value": "41.8",
+                  "title": "08:10"
+               },
+               {
+                  "value": "42.0",
+                  "title": "08:20"
+               },
+               {
+                  "value": "41.6",
+                  "title": "08:30"
+               },
+               {
+                  "value": "42.0",
+                  "title": "08:40"
+               },
+               {
+                  "value": "41.4",
+                  "title": "08:50"
+               }
+            ],
+            "title": "Humedad"
+         }
+      ],
+      "type": "line",
+      "title": "Recamara"
    }
 }
