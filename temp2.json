@@ -1,15 +1,13 @@
 {
    "graph": {
-      "title": "Recamara",
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      },
       "datasequences": [
          {
             "color": "red",
-            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "26.3",
-                  "title": "12:43"
-               },
                {
                   "value": "26.3",
                   "title": "12:53"
@@ -57,17 +55,17 @@
                {
                   "value": "27.7",
                   "title": "14:53"
+               },
+               {
+                  "value": "27.8",
+                  "title": "15:03"
                }
-            ]
+            ],
+            "title": "Temperatura"
          },
          {
             "color": "blue",
-            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "28.6",
-                  "title": "12:43"
-               },
                {
                   "value": "28.0",
                   "title": "12:53"
@@ -115,14 +113,16 @@
                {
                   "value": "26.8",
                   "title": "14:53"
+               },
+               {
+                  "value": "26.6",
+                  "title": "15:03"
                }
-            ]
+            ],
+            "title": "Humedad"
          }
       ],
       "type": "line",
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      }
+      "title": "Recamara"
    }
 }
