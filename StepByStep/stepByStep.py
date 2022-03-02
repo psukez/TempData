@@ -25,14 +25,17 @@ Var1 = "Santiago"
 Var2 = "El Bosque"
 Var3 = "Concepcion"
 Var4 = "Calama"
+Var5 = "Providencia"
 Santiago = "13101"
 ElBosque = "13105"
 Concepcion = "8101"
 Calama = "2201"
+Providencia = "13123"
 EstadoVar1 = "1"
 EstadoVar2 = "1"
 EstadoVar3 = "1"
 EsradoVar4 = "1"
+EstadoVar5 = "1"
 tiempo = "fecha"
 
 #acceso y lectura de archivo csv al array data
@@ -79,6 +82,13 @@ if comuna in col:
             EstadoVar4 = data[x][-1] 
             # print (' ' + comuna + ' ' + EstadoVar4)
 
+comuna = Providencia
+col = [x[2] for x in data]
+if comuna in col:
+    for x in range(0,len(data)):
+        if comuna == data[x][2]:
+            EstadoVar5 = data[x][-1] 
+
 #verificacion del archivo Json
 file2="/home/pi/Code/TempData/StepByStep/gauge.json"
 JsonFile = file_accessible(file2, "r")
@@ -97,6 +107,8 @@ if JsonFile:
             del data_line["gauge"]["datasequences"][2]["datapoints"][0]
         while len(data_line["gauge"]["datasequences"][3]["datapoints"])>2:
             del data_line["gauge"]["datasequences"][3]["datapoints"][0]
+        while len(data_line["gauge"]["datasequences"][4]["datapoints"])>2:
+            del data_line["gauge"]["datasequences"][4]["datapoints"][0]
             
 # Ingreso de datos nuevos
         data_line["gauge"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':EstadoVar1})
@@ -118,6 +130,11 @@ if JsonFile:
         newEntry.seek(0) 
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
+        
+        data_line["gauge"]["datasequences"][4]["datapoints"].append({u'title':tiempo,u'value':EstadoVar5})
+        newEntry.seek(0) 
+        newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
+        newEntry.truncate()
 
 #creacion de archivo Json en caso de que no exista 
 else:
@@ -125,6 +142,7 @@ else:
     EstadoVar2 = "5"
     EstadoVar3 = "5"
     EstadoVar4 = "5"
+    EstadoVar5 = "5"
     with open(file2, "w") as newEntry:
         newEntry.write (json.dumps({'gauge':{'title':titulo,'datasequences':[
            {'title':Var1,'datapoints':[
@@ -135,6 +153,8 @@ else:
                {'title':tiempo,'value':EstadoVar3}]},
            {'title':Var4,'datapoints':[
                {'title':tiempo,'value':EstadoVar4}]},
+           {'title':Var5,'datapoints':[
+               {'title':tiempo,'value':EstadoVar5}]},
         ]}}, indent=3,separators=(',', ': ')))
         
 
