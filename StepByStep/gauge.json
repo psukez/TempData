@@ -2,11 +2,8 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
-               {
-                  "value": "4",
-                  "title": "2022-03-05"
-               },
                {
                   "value": "4",
                   "title": "2022-03-05"
@@ -14,16 +11,16 @@
                {
                   "value": "4",
                   "title": "2022-03-09"
-               }
-            ],
-            "title": "Santiago"
-         },
-         {
-            "datapoints": [
+               },
                {
                   "value": "4",
-                  "title": "2022-03-05"
-               },
+                  "title": "2022-03-09"
+               }
+            ]
+         },
+         {
+            "title": "El Bosque",
+            "datapoints": [
                {
                   "value": "4",
                   "title": "2022-03-05"
@@ -31,16 +28,16 @@
                {
                   "value": "4",
                   "title": "2022-03-09"
+               },
+               {
+                  "value": "4",
+                  "title": "2022-03-09"
                }
-            ],
-            "title": "El Bosque"
+            ]
          },
          {
+            "title": "Concepcion",
             "datapoints": [
-               {
-                  "value": "2",
-                  "title": "2022-03-05"
-               },
                {
                   "value": "2",
                   "title": "2022-03-05"
@@ -48,11 +45,15 @@
                {
                   "value": "3",
                   "title": "2022-03-09"
+               },
+               {
+                  "value": "3",
+                  "title": "2022-03-09"
                }
-            ],
-            "title": "Concepcion"
+            ]
          },
          {
+            "title": "Calama",
             "datapoints": [
                {
                   "value": "4",
@@ -60,16 +61,16 @@
                },
                {
                   "value": "4",
-                  "title": "2022-03-05"
+                  "title": "2022-03-09"
                },
                {
                   "value": "4",
                   "title": "2022-03-09"
                }
-            ],
-            "title": "Calama"
+            ]
          },
          {
+            "title": "Providencia",
             "datapoints": [
                {
                   "value": "4",
@@ -77,14 +78,13 @@
                },
                {
                   "value": "4",
-                  "title": "2022-03-05"
+                  "title": "2022-03-09"
                },
                {
                   "value": "4",
                   "title": "2022-03-09"
                }
-            ],
-            "title": "Providencia"
+            ]
          }
       ],
       "title": "comunas"
