@@ -2,6 +2,7 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
                {
                   "value": "4",
@@ -12,13 +13,13 @@
                   "title": "2022-04-07"
                },
                {
-                  "value": "4",
-                  "title": "2022-04-07"
+                  "value": "Bajo",
+                  "title": "2022-04-14"
                }
-            ],
-            "title": "Santiago"
+            ]
          },
          {
+            "title": "El Bosque",
             "datapoints": [
                {
                   "value": "4",
@@ -29,13 +30,13 @@
                   "title": "2022-04-07"
                },
                {
-                  "value": "4",
-                  "title": "2022-04-07"
+                  "value": "Bajo",
+                  "title": "2022-04-14"
                }
-            ],
-            "title": "El Bosque"
+            ]
          },
          {
+            "title": "Concepcion",
             "datapoints": [
                {
                   "value": "4",
@@ -46,13 +47,13 @@
                   "title": "2022-04-07"
                },
                {
-                  "value": "4",
-                  "title": "2022-04-07"
+                  "value": "Bajo",
+                  "title": "2022-04-14"
                }
-            ],
-            "title": "Concepcion"
+            ]
          },
          {
+            "title": "Calama",
             "datapoints": [
                {
                   "value": "5",
@@ -63,13 +64,13 @@
                   "title": "2022-04-07"
                },
                {
-                  "value": "5",
-                  "title": "2022-04-07"
+                  "value": "Bajo",
+                  "title": "2022-04-14"
                }
-            ],
-            "title": "Calama"
+            ]
          },
          {
+            "title": "Providencia",
             "datapoints": [
                {
                   "value": "4",
@@ -80,11 +81,10 @@
                   "title": "2022-04-07"
                },
                {
-                  "value": "4",
-                  "title": "2022-04-07"
+                  "value": "Bajo",
+                  "title": "2022-04-14"
                }
-            ],
-            "title": "Providencia"
+            ]
          }
       ],
       "title": "comunas"
