@@ -1,17 +1,11 @@
 {
    "graph": {
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      },
+      "title": "Pieza Pipe",
       "datasequences": [
          {
             "color": "red",
+            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "22.6",
-                  "title": "04:51"
-               },
                {
                   "value": "22.6",
                   "title": "05:01"
@@ -59,17 +53,17 @@
                {
                   "value": "22.4",
                   "title": "06:51"
+               },
+               {
+                  "value": "22.4",
+                  "title": "07:01"
                }
-            ],
-            "title": "Temperatura"
+            ]
          },
          {
             "color": "blue",
+            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "42.0",
-                  "title": "04:51"
-               },
                {
                   "value": "42.1",
                   "title": "05:01"
@@ -117,12 +111,18 @@
                {
                   "value": "42.3",
                   "title": "06:51"
+               },
+               {
+                  "value": "41.9",
+                  "title": "07:01"
                }
-            ],
-            "title": "Humedad"
+            ]
          }
       ],
       "type": "line",
-      "title": "Pieza Pipe"
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      }
    }
 }
