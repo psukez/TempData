@@ -49,14 +49,16 @@ def on_message(client, userdata, msg):
        #print len(data_line["graph"]["datasequences"][0]["datapoints"])
        #print len(data_line["graph"]["datasequences"][1]["datapoints"])
        if (msg.topic ==  "sensor/temperature/living"):
-        valorTemp = str(msg.payload)
+        valorTemp = str(float(msg.payload)- 5)
+        #print (msg.payload)
         #print (valorTemp)
         data_line["graph"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':valorTemp})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
        if (msg.topic ==  "sensor/humidity/living"):
-        valorHum = str(msg.payload)
+        valorHum = str(float(msg.payload)+ 8)
+        #print (msg.payload)
         #print (valorHum)
         data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
         newEntry.seek(0)
