@@ -1,15 +1,13 @@
 {
    "graph": {
-      "title": "Living",
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      },
       "datasequences": [
          {
             "color": "red",
-            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "21.3",
-                  "title": "02:30"
-               },
                {
                   "value": "21.4",
                   "title": "02:30"
@@ -53,21 +51,21 @@
                {
                   "value": "21.0",
                   "title": "04:10"
+               },
+               {
+                  "value": "21.0",
+                  "title": "04:20"
+               },
+               {
+                  "value": "21.0",
+                  "title": "04:20"
                }
-            ]
+            ],
+            "title": "Temperatura"
          },
          {
             "color": "blue",
-            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "45.3",
-                  "title": "02:30"
-               },
-               {
-                  "value": "45.4",
-                  "title": "02:30"
-               },
                {
                   "value": "45.1",
                   "title": "02:40"
@@ -107,14 +105,16 @@
                {
                   "value": "44.6",
                   "title": "04:10"
+               },
+               {
+                  "value": "44.4",
+                  "title": "04:20"
                }
-            ]
+            ],
+            "title": "Humedad"
          }
       ],
       "type": "line",
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      }
+      "title": "Living"
    }
 }
