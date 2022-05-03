@@ -35,6 +35,8 @@ def on_message(client, userdata, msg):
     grafVar2 = "Humedad"
     color2 = "blue"
     minVal = 15
+    tempadjust = 0
+    humadjust = 0
     tiempo= (time.strftime("%H:%M"))
     if eFile:
       with open(file, "r+") as newEntry:
@@ -49,7 +51,7 @@ def on_message(client, userdata, msg):
        #print len(data_line["graph"]["datasequences"][0]["datapoints"])
        #print len(data_line["graph"]["datasequences"][1]["datapoints"])
        if (msg.topic ==  "sensor/temperature/living"):
-        valorTemp = str(float(msg.payload)- 5)
+        valorTemp = str(float(msg.payload) - tempadjust)
         #print (msg.payload)
         #print (valorTemp)
         data_line["graph"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':valorTemp})
@@ -57,7 +59,7 @@ def on_message(client, userdata, msg):
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
        if (msg.topic ==  "sensor/humidity/living"):
-        valorHum = str(float(msg.payload)+ 8)
+        valorHum = str(float(msg.payload) + humadjust)
         #print (msg.payload)
         #print (valorHum)
         data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
