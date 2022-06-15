@@ -2,7 +2,6 @@
    "gauge": {
       "datasequences": [
          {
-            "title": "Santiago",
             "datapoints": [
                {
                   "value": "Medio",
@@ -14,12 +13,12 @@
                },
                {
                   "value": "Medio",
-                  "title": "2022-06-09"
+                  "title": "2022-06-13"
                }
-            ]
+            ],
+            "title": "Santiago"
          },
          {
-            "title": "El Bosque",
             "datapoints": [
                {
                   "value": "Medio",
@@ -31,12 +30,12 @@
                },
                {
                   "value": "Medio",
-                  "title": "2022-06-09"
+                  "title": "2022-06-13"
                }
-            ]
+            ],
+            "title": "El Bosque"
          },
          {
-            "title": "Concepcion",
             "datapoints": [
                {
                   "value": "Medio",
@@ -48,12 +47,12 @@
                },
                {
                   "value": "Medio",
-                  "title": "2022-06-09"
+                  "title": "2022-06-13"
                }
-            ]
+            ],
+            "title": "Concepcion"
          },
          {
-            "title": "Calama",
             "datapoints": [
                {
                   "value": "Bajo",
@@ -65,12 +64,12 @@
                },
                {
                   "value": "Bajo",
-                  "title": "2022-06-09"
+                  "title": "2022-06-13"
                }
-            ]
+            ],
+            "title": "Calama"
          },
          {
-            "title": "Providencia",
             "datapoints": [
                {
                   "value": "Medio",
@@ -82,9 +81,10 @@
                },
                {
                   "value": "Medio",
-                  "title": "2022-06-09"
+                  "title": "2022-06-13"
                }
-            ]
+            ],
+            "title": "Providencia"
          }
       ],
       "title": "comunas"
