@@ -1,17 +1,11 @@
 {
    "graph": {
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 10
-      },
+      "title": "Balcon",
       "datasequences": [
          {
             "color": "red",
+            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "14.50",
-                  "title": "02:10"
-               },
                {
                   "value": "15.30",
                   "title": "02:20"
@@ -55,21 +49,21 @@
                {
                   "value": "15.80",
                   "title": "03:40"
+               },
+               {
+                  "value": "15.80",
+                  "title": "03:50"
+               },
+               {
+                  "value": "15.70",
+                  "title": "03:50"
                }
-            ],
-            "title": "Temperatura"
+            ]
          },
          {
             "color": "blue",
+            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "39.50",
-                  "title": "01:50"
-               },
-               {
-                  "value": "42.10",
-                  "title": "02:00"
-               },
                {
                   "value": "47.40",
                   "title": "02:10"
@@ -109,12 +103,18 @@
                {
                   "value": "46.80",
                   "title": "03:40"
+               },
+               {
+                  "value": "45.50",
+                  "title": "03:50"
                }
-            ],
-            "title": "Humedad"
+            ]
          }
       ],
       "type": "line",
-      "title": "Balcon"
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 10
+      }
    }
 }
