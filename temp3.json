@@ -1,128 +1,128 @@
 {
    "graph": {
-      "title": "Pieza Pipe",
-      "datasequences": [
-         {
-            "color": "red",
-            "title": "Temperatura",
-            "datapoints": [
-               {
-                  "value": "18.7",
-                  "title": "23:30"
-               },
-               {
-                  "value": "18.7",
-                  "title": "23:40"
-               },
-               {
-                  "value": "18.7",
-                  "title": "23:50"
-               },
-               {
-                  "value": "18.7",
-                  "title": "00:00"
-               },
-               {
-                  "value": "18.7",
-                  "title": "00:10"
-               },
-               {
-                  "value": "18.7",
-                  "title": "00:20"
-               },
-               {
-                  "value": "18.8",
-                  "title": "00:30"
-               },
-               {
-                  "value": "18.7",
-                  "title": "00:40"
-               },
-               {
-                  "value": "18.7",
-                  "title": "00:50"
-               },
-               {
-                  "value": "18.7",
-                  "title": "01:00"
-               },
-               {
-                  "value": "18.7",
-                  "title": "01:10"
-               },
-               {
-                  "value": "18.8",
-                  "title": "01:20"
-               },
-               {
-                  "value": "18.7",
-                  "title": "01:30"
-               }
-            ]
-         },
-         {
-            "color": "blue",
-            "title": "Humedad",
-            "datapoints": [
-               {
-                  "value": "44.3",
-                  "title": "23:30"
-               },
-               {
-                  "value": "44.2",
-                  "title": "23:40"
-               },
-               {
-                  "value": "44.3",
-                  "title": "23:50"
-               },
-               {
-                  "value": "44.4",
-                  "title": "00:00"
-               },
-               {
-                  "value": "44.3",
-                  "title": "00:10"
-               },
-               {
-                  "value": "44.2",
-                  "title": "00:20"
-               },
-               {
-                  "value": "44.2",
-                  "title": "00:30"
-               },
-               {
-                  "value": "44.1",
-                  "title": "00:40"
-               },
-               {
-                  "value": "44.2",
-                  "title": "00:50"
-               },
-               {
-                  "value": "44.1",
-                  "title": "01:00"
-               },
-               {
-                  "value": "44.1",
-                  "title": "01:10"
-               },
-               {
-                  "value": "44.4",
-                  "title": "01:20"
-               },
-               {
-                  "value": "44.4",
-                  "title": "01:30"
-               }
-            ]
-         }
-      ],
-      "type": "line",
       "yAxis": {
          "maxValue": 55,
          "minValue": 15
-      }
+      },
+      "datasequences": [
+         {
+            "color": "red",
+            "datapoints": [
+               {
+                  "value": "18.7",
+                  "title": "23:40"
+               },
+               {
+                  "value": "18.7",
+                  "title": "23:50"
+               },
+               {
+                  "value": "18.7",
+                  "title": "00:00"
+               },
+               {
+                  "value": "18.7",
+                  "title": "00:10"
+               },
+               {
+                  "value": "18.7",
+                  "title": "00:20"
+               },
+               {
+                  "value": "18.8",
+                  "title": "00:30"
+               },
+               {
+                  "value": "18.7",
+                  "title": "00:40"
+               },
+               {
+                  "value": "18.7",
+                  "title": "00:50"
+               },
+               {
+                  "value": "18.7",
+                  "title": "01:00"
+               },
+               {
+                  "value": "18.7",
+                  "title": "01:10"
+               },
+               {
+                  "value": "18.8",
+                  "title": "01:20"
+               },
+               {
+                  "value": "18.7",
+                  "title": "01:30"
+               },
+               {
+                  "value": "18.7",
+                  "title": "01:40"
+               }
+            ],
+            "title": "Temperatura"
+         },
+         {
+            "color": "blue",
+            "datapoints": [
+               {
+                  "value": "44.2",
+                  "title": "23:40"
+               },
+               {
+                  "value": "44.3",
+                  "title": "23:50"
+               },
+               {
+                  "value": "44.4",
+                  "title": "00:00"
+               },
+               {
+                  "value": "44.3",
+                  "title": "00:10"
+               },
+               {
+                  "value": "44.2",
+                  "title": "00:20"
+               },
+               {
+                  "value": "44.2",
+                  "title": "00:30"
+               },
+               {
+                  "value": "44.1",
+                  "title": "00:40"
+               },
+               {
+                  "value": "44.2",
+                  "title": "00:50"
+               },
+               {
+                  "value": "44.1",
+                  "title": "01:00"
+               },
+               {
+                  "value": "44.1",
+                  "title": "01:10"
+               },
+               {
+                  "value": "44.4",
+                  "title": "01:20"
+               },
+               {
+                  "value": "44.4",
+                  "title": "01:30"
+               },
+               {
+                  "value": "43.9",
+                  "title": "01:40"
+               }
+            ],
+            "title": "Humedad"
+         }
+      ],
+      "type": "line",
+      "title": "Pieza Pipe"
    }
 }
