@@ -1,25 +1,11 @@
 {
    "graph": {
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      },
+      "title": "Living",
       "datasequences": [
          {
             "color": "red",
+            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "22.6",
-                  "title": "18:20"
-               },
-               {
-                  "value": "22.5",
-                  "title": "18:30"
-               },
-               {
-                  "value": "22.5",
-                  "title": "18:30"
-               },
                {
                   "value": "22.4",
                   "title": "18:40"
@@ -55,21 +41,25 @@
                {
                   "value": "22.3",
                   "title": "19:50"
+               },
+               {
+                  "value": "22.3",
+                  "title": "20:00"
+               },
+               {
+                  "value": "22.3",
+                  "title": "20:00"
+               },
+               {
+                  "value": "22.3",
+                  "title": "20:10"
                }
-            ],
-            "title": "Temperatura"
+            ]
          },
          {
             "color": "blue",
+            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "37.9",
-                  "title": "18:20"
-               },
-               {
-                  "value": "37.9",
-                  "title": "18:20"
-               },
                {
                   "value": "38.0",
                   "title": "18:30"
@@ -109,12 +99,22 @@
                {
                   "value": "38.4",
                   "title": "19:50"
+               },
+               {
+                  "value": "38.4",
+                  "title": "20:00"
+               },
+               {
+                  "value": "38.5",
+                  "title": "20:10"
                }
-            ],
-            "title": "Humedad"
+            ]
          }
       ],
       "type": "line",
-      "title": "Living"
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      }
    }
 }
