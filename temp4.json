@@ -1,23 +1,13 @@
 {
    "graph": {
-      "title": "Balcon",
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 10
+      },
       "datasequences": [
          {
             "color": "red",
-            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "10.80",
-                  "title": "04:10"
-               },
-               {
-                  "value": "10.40",
-                  "title": "04:20"
-               },
-               {
-                  "value": "10.40",
-                  "title": "04:20"
-               },
                {
                   "value": "10.20",
                   "title": "04:30"
@@ -53,21 +43,25 @@
                {
                   "value": "9.60",
                   "title": "05:50"
+               },
+               {
+                  "value": "10.10",
+                  "title": "06:00"
+               },
+               {
+                  "value": "10.20",
+                  "title": "06:00"
+               },
+               {
+                  "value": "10.20",
+                  "title": "06:10"
                }
-            ]
+            ],
+            "title": "Temperatura"
          },
          {
             "color": "blue",
-            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "51.50",
-                  "title": "04:00"
-               },
-               {
-                  "value": "53.10",
-                  "title": "04:10"
-               },
                {
                   "value": "54.20",
                   "title": "04:20"
@@ -107,14 +101,20 @@
                {
                   "value": "60.30",
                   "title": "05:50"
+               },
+               {
+                  "value": "57.00",
+                  "title": "06:00"
+               },
+               {
+                  "value": "56.50",
+                  "title": "06:10"
                }
-            ]
+            ],
+            "title": "Humedad"
          }
       ],
       "type": "line",
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 10
-      }
+      "title": "Balcon"
    }
 }
