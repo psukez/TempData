@@ -7,14 +7,6 @@
             "title": "Temperatura",
             "datapoints": [
                {
-                  "value": "20.1",
-                  "title": "01:31"
-               },
-               {
-                  "value": "19.9",
-                  "title": "01:41"
-               },
-               {
                   "value": "19.8",
                   "title": "01:51"
                },
@@ -57,6 +49,14 @@
                {
                   "value": "21.0",
                   "title": "03:50"
+               },
+               {
+                  "value": "21.0",
+                  "title": "04:00"
+               },
+               {
+                  "value": "21.1",
+                  "title": "04:10"
                }
             ]
          },
@@ -64,14 +64,6 @@
             "color": "blue",
             "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "45.0",
-                  "title": "01:31"
-               },
-               {
-                  "value": "45.0",
-                  "title": "01:41"
-               },
                {
                   "value": "45.1",
                   "title": "01:51"
@@ -115,6 +107,14 @@
                {
                   "value": "43.0",
                   "title": "03:50"
+               },
+               {
+                  "value": "43.1",
+                  "title": "04:00"
+               },
+               {
+                  "value": "43.6",
+                  "title": "04:10"
                }
             ]
          }
