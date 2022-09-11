@@ -2,12 +2,7 @@
    "gauge": {
       "datasequences": [
          {
-            "title": "Santiago",
             "datapoints": [
-               {
-                  "value": "Medio",
-                  "title": "2022-09-01"
-               },
                {
                   "value": "Medio",
                   "title": "2022-09-01"
@@ -15,16 +10,16 @@
                {
                   "value": "Bajo",
                   "title": "2022-09-08"
+               },
+               {
+                  "value": "Bajo",
+                  "title": "2022-09-08"
                }
-            ]
+            ],
+            "title": "Santiago"
          },
          {
-            "title": "El Bosque",
             "datapoints": [
-               {
-                  "value": "Medio",
-                  "title": "2022-09-01"
-               },
                {
                   "value": "Medio",
                   "title": "2022-09-01"
@@ -32,16 +27,16 @@
                {
                   "value": "Bajo",
                   "title": "2022-09-08"
+               },
+               {
+                  "value": "Bajo",
+                  "title": "2022-09-08"
                }
-            ]
+            ],
+            "title": "El Bosque"
          },
          {
-            "title": "Concepcion",
             "datapoints": [
-               {
-                  "value": "Medio",
-                  "title": "2022-09-01"
-               },
                {
                   "value": "Medio",
                   "title": "2022-09-01"
@@ -49,16 +44,16 @@
                {
                   "value": "Bajo",
                   "title": "2022-09-08"
+               },
+               {
+                  "value": "Bajo",
+                  "title": "2022-09-08"
                }
-            ]
+            ],
+            "title": "Concepcion"
          },
          {
-            "title": "Calama",
             "datapoints": [
-               {
-                  "value": "Medio",
-                  "title": "2022-09-01"
-               },
                {
                   "value": "Medio",
                   "title": "2022-09-01"
@@ -66,16 +61,16 @@
                {
                   "value": "Medio",
                   "title": "2022-09-08"
-               }
-            ]
-         },
-         {
-            "title": "Providencia",
-            "datapoints": [
+               },
                {
                   "value": "Medio",
-                  "title": "2022-09-01"
-               },
+                  "title": "2022-09-08"
+               }
+            ],
+            "title": "Calama"
+         },
+         {
+            "datapoints": [
                {
                   "value": "Medio",
                   "title": "2022-09-01"
@@ -83,8 +78,13 @@
                {
                   "value": "Bajo",
                   "title": "2022-09-08"
+               },
+               {
+                  "value": "Bajo",
+                  "title": "2022-09-08"
                }
-            ]
+            ],
+            "title": "Providencia"
          }
       ],
       "title": "comunas"
