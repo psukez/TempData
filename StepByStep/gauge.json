@@ -2,6 +2,7 @@
    "gauge": {
       "datasequences": [
          {
+            "title": "Santiago",
             "datapoints": [
                {
                   "value": "Bajo",
@@ -15,10 +16,10 @@
                   "value": "Bajo",
                   "title": "2022-09-08"
                }
-            ],
-            "title": "Santiago"
+            ]
          },
          {
+            "title": "El Bosque",
             "datapoints": [
                {
                   "value": "Bajo",
@@ -32,10 +33,10 @@
                   "value": "Bajo",
                   "title": "2022-09-08"
                }
-            ],
-            "title": "El Bosque"
+            ]
          },
          {
+            "title": "Concepcion",
             "datapoints": [
                {
                   "value": "Bajo",
@@ -49,10 +50,10 @@
                   "value": "Bajo",
                   "title": "2022-09-08"
                }
-            ],
-            "title": "Concepcion"
+            ]
          },
          {
+            "title": "Calama",
             "datapoints": [
                {
                   "value": "Medio",
@@ -66,10 +67,10 @@
                   "value": "Medio",
                   "title": "2022-09-08"
                }
-            ],
-            "title": "Calama"
+            ]
          },
          {
+            "title": "Providencia",
             "datapoints": [
                {
                   "value": "Bajo",
@@ -83,8 +84,7 @@
                   "value": "Bajo",
                   "title": "2022-09-08"
                }
-            ],
-            "title": "Providencia"
+            ]
          }
       ],
       "title": "comunas"
