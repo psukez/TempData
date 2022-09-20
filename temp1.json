@@ -1,23 +1,13 @@
 {
    "graph": {
-      "title": "Living",
+      "yAxis": {
+         "maxValue": 55,
+         "minValue": 15
+      },
       "datasequences": [
          {
             "color": "red",
-            "title": "Temperatura",
             "datapoints": [
-               {
-                  "value": "22.7",
-                  "title": "19:30"
-               },
-               {
-                  "value": "22.7",
-                  "title": "19:30"
-               },
-               {
-                  "value": "22.7",
-                  "title": "19:40"
-               },
                {
                   "value": "22.7",
                   "title": "19:50"
@@ -53,29 +43,29 @@
                {
                   "value": "22.6",
                   "title": "20:50"
+               },
+               {
+                  "value": "22.8",
+                  "title": "21:00"
+               },
+               {
+                  "value": "22.7",
+                  "title": "21:00"
+               },
+               {
+                  "value": "22.8",
+                  "title": "21:10"
+               },
+               {
+                  "value": "22.7",
+                  "title": "21:10"
                }
-            ]
+            ],
+            "title": "Temperatura"
          },
          {
             "color": "blue",
-            "title": "Humedad",
             "datapoints": [
-               {
-                  "value": "37.7",
-                  "title": "19:30"
-               },
-               {
-                  "value": "37.9",
-                  "title": "19:30"
-               },
-               {
-                  "value": "38.0",
-                  "title": "19:40"
-               },
-               {
-                  "value": "38.0",
-                  "title": "19:50"
-               },
                {
                   "value": "38.1",
                   "title": "20:00"
@@ -107,14 +97,24 @@
                {
                   "value": "38.5",
                   "title": "20:50"
+               },
+               {
+                  "value": "38.8",
+                  "title": "21:00"
+               },
+               {
+                  "value": "38.7",
+                  "title": "21:00"
+               },
+               {
+                  "value": "39.1",
+                  "title": "21:10"
                }
-            ]
+            ],
+            "title": "Humedad"
          }
       ],
       "type": "line",
-      "yAxis": {
-         "maxValue": 55,
-         "minValue": 15
-      }
+      "title": "Living"
    }
 }
