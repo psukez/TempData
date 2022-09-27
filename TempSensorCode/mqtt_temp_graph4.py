@@ -50,7 +50,7 @@ def on_message(client, userdata, msg):
        #print len(data_line["graph"]["datasequences"][1]["datapoints"])
        if (msg.topic ==  "sensor/temperature/balcon"):
         valorTemp = str(msg.payload)
-        #print (valorTemp)
+        print (valorTemp)
         data_line["graph"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':valorTemp})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
