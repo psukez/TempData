@@ -12,7 +12,7 @@ def file_accessible(filepath, mode):
         f = open(filepath, mode)
     except IOError as e:
         return False
-    #print "File Ok"
+    print ("File Ok")
     return True 
 
 # The callback for when the client receives a CONNACK response from the server.
@@ -57,7 +57,7 @@ def on_message(client, userdata, msg):
         newEntry.truncate()
        if (msg.topic ==  "sensor/humidity/balcon"):
         valorHum = str(msg.payload)
-        #print (valorHum)
+        print (valorHum)
         data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
