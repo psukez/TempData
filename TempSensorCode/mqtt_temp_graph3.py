@@ -1,4 +1,4 @@
-import json, sys, os, commands, time
+import json, sys, os, time
 from pprint import pprint
 from subprocess import call
 import paho.mqtt.client as mqtt
