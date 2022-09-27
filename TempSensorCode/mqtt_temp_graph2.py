@@ -14,21 +14,20 @@ def file_accessible(filepath, mode):
         f = open(filepath, mode)
     except IOError as e:
         return False
-    print ("File Ok")
+    #print "File Ok"
     return True
 
 # The callback for when the client receives a CONNACK response from the server.
 def on_connect(client, userdata, flags, rc):
-    print ("Connected with result code "+str(rc))
+    print("Connected with result code "+str(rc))
 
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
     client.subscribe("recamara/luz/principal/sonoff/tele/SENSOR")
-    print ("connected to topic")
 
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
-    print (msg.topic+" "+str(msg.payload))
+    #print (msg.topic+" "+str(msg.payload))
     file="/home/pi/Code/TempData/temp2.json"
     eFile = file_accessible(file, "r")
     titulo = "Recamara"
@@ -37,10 +36,9 @@ def on_message(client, userdata, msg):
     grafVar2 = "Humedad"
     color2 = "blue"
     minVal = 15
-    #tiempofinal= (datetime.datetime.now()) #- datetime.timedelta(minutes=1))
+    #tiempofinal= (datetime.datetime.now())# - datetime.timedelta(minutes=1))
     #print tiempofinal.strftime("%H:%M")
-    tiempo=(time.strftime("%H:%M"))   #tiempofinal.strftime("%H")+ ":00"
-    print (tiempo)
+    tiempo=(time.strftime("%H:%M"))   #tiempofinal.strftime("%H")+":00"
     if eFile:
       with open(file, "r+") as newEntry:
        data_line = json.load(newEntry)
@@ -57,7 +55,7 @@ def on_message(client, userdata, msg):
         strtemp = str(msg.payload)
         positionTemp=strtemp.index('Temperature')
         valorTemp = strtemp[positionTemp+13:positionTemp+17]
-        print (valorTemp)
+        #print (valorTemp)
         data_line["graph"]["datasequences"][0]["datapoints"].append({u'title':tiempo,u'value':valorTemp})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
@@ -66,7 +64,7 @@ def on_message(client, userdata, msg):
         strhum = str(msg.payload)
         positionHum=strtemp.index('Humidity')
         valorHum = strtemp[positionHum+10:positionHum+14]
-        print (valorHum)
+        #print (valorHum)
         data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
@@ -85,5 +83,5 @@ client.on_message = on_message
 
 client.connect("192.168.1.133", 1883, 60)
 client.loop_start()
-time.sleep (10)
+time.sleep (130)
 client.loop_stop(force=False)
