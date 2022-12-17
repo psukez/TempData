@@ -35,7 +35,7 @@ def on_message(client, userdata, msg):
     grafVar2 = "Humedad"
     color2 = "blue"
     minVal = 15
-    tempadjust = 0
+    tempadjust = 4
     humadjust = 0
     tiempo= (time.strftime("%H:%M"))
     if eFile:
