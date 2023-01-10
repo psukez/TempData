@@ -1,0 +1,35 @@
+{
+   "graph": {
+      "title": "Balcon",
+      "type": "line",
+      "yAxis": {
+         "minValue": 15
+      },
+      "datasequences": [
+         {
+            "title": "Temperatura",
+            "color": "red",
+            "datapoints": [
+               {
+                  "title": "02:00",
+                  "value": 0
+               },
+               {
+                  "title": "02:10",
+                  "value": "27.6"
+               }
+            ]
+         },
+         {
+            "title": "Presi\u00f3n",
+            "color": "blue",
+            "datapoints": [
+               {
+                  "title": "02:00",
+                  "value": 0
+               }
+            ]
+         }
+      ]
+   }
+}
