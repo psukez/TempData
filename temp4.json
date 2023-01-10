@@ -1,35 +1,128 @@
 {
    "graph": {
-      "title": "Balcon",
-      "type": "line",
       "yAxis": {
+         "maxValue": 55,
          "minValue": 15
       },
       "datasequences": [
          {
-            "title": "Temperatura",
             "color": "red",
             "datapoints": [
                {
-                  "title": "02:00",
-                  "value": 0
+                  "title": "00:01",
+                  "value": "22.9"
                },
                {
-                  "title": "02:10",
-                  "value": "27.6"
+                  "title": "00:11",
+                  "value": "21.5"
+               },
+               {
+                  "title": "00:21",
+                  "value": "22.5"
+               },
+               {
+                  "title": "00:31",
+                  "value": "21.1"
+               },
+               {
+                  "title": "00:41",
+                  "value": "24.1"
+               },
+               {
+                  "title": "00:51",
+                  "value": "24.3"
+               },
+               {
+                  "title": "01:01",
+                  "value": "24.4"
+               },
+               {
+                  "title": "01:11",
+                  "value": "24.4"
+               },
+               {
+                  "title": "01:21",
+                  "value": "24.4"
+               },
+               {
+                  "title": "01:31",
+                  "value": "24.4"
+               },
+               {
+                  "title": "01:41",
+                  "value": "24.6"
+               },
+               {
+                  "title": "01:51",
+                  "value": "24.8"
+               },
+               {
+                  "title": "02:11",
+                  "value": "24.8"
                }
-            ]
+            ],
+            "title": "Temperatura"
          },
          {
-            "title": "Presi\u00f3n",
             "color": "blue",
             "datapoints": [
                {
-                  "title": "02:00",
-                  "value": 0
+                  "title": "00:01",
+                  "value": "46.7"
+               },
+               {
+                  "title": "00:11",
+                  "value": "48.3"
+               },
+               {
+                  "title": "00:21",
+                  "value": "47.4"
+               },
+               {
+                  "title": "00:31",
+                  "value": "50.1"
+               },
+               {
+                  "title": "00:41",
+                  "value": "44.9"
+               },
+               {
+                  "title": "00:51",
+                  "value": "44.5"
+               },
+               {
+                  "title": "01:01",
+                  "value": "44.5"
+               },
+               {
+                  "title": "01:11",
+                  "value": "44.2"
+               },
+               {
+                  "title": "01:21",
+                  "value": "44.0"
+               },
+               {
+                  "title": "01:31",
+                  "value": "44.0"
+               },
+               {
+                  "title": "01:41",
+                  "value": "44.2"
+               },
+               {
+                  "title": "01:51",
+                  "value": "44.4"
+               },
+               {
+                  "title": "02:11",
+                  "value": "44.3"
                }
-            ]
+            ],
+            "title": "Presion"
          }
-      ]
+      ],
+      "type": "line",
+      "title": "Pieza Pipe"
    }
 }

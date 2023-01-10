@@ -32,7 +32,7 @@ def on_message(client, userdata, msg):
     titulo = "Balcon"
     grafVar1 = "Temperatura"
     color1 = "red"
-    grafVar2 = "Presión"
+    grafVar2 = "Presion"
     color2 = "blue"
     minVal = 15
     tempadjust = 0
