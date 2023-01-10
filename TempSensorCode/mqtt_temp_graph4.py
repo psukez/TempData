@@ -4,7 +4,7 @@ from subprocess import call
 import paho.mqtt.client as mqtt
 import time
 global valorTemp
-global valorHum
+global valorPress
 
 def file_accessible(filepath, mode):
     #Check if a file exists and is accessible.
@@ -22,7 +22,7 @@ def on_connect(client, userdata, flags, rc):
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
     client.subscribe("sensor/temperature/balcon")
-    client.subscribe("sensor/humidity/balcon")
+    client.subscribe("sensor/pressure/balcon")
 
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
@@ -32,7 +32,7 @@ def on_message(client, userdata, msg):
     titulo = "Balcon"
     grafVar1 = "Temperatura"
     color1 = "red"
-    grafVar2 = "Humedad"
+    grafVar2 = "Presión"
     color2 = "blue"
     minVal = 15
     tempadjust = 0
@@ -58,20 +58,20 @@ def on_message(client, userdata, msg):
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
-       if (msg.topic ==  "sensor/humidity/balcon"):
+       if (msg.topic ==  "sensor/pressure/balcon"):
         valorHum = str(float(msg.payload) + humadjust)
         #print (msg.payload)
-        #print (valorHum)
-        data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorHum})
+        #print (valorPress)
+        data_line["graph"]["datasequences"][1]["datapoints"].append({u'title':tiempo,u'value':valorPress})
         newEntry.seek(0)
         newEntry.write(json.dumps(data_line,indent=3,separators=(',', ': ')))
         newEntry.truncate()
 
     else:
       valorTemp=0
-      valorHum=0
+      valorPress=0
       with open(file, "w") as newEntry:
-       newEntry.write (json.dumps({'graph':{'title':titulo,'type':"line",'yAxis':{'minValue':minVal},'datasequences':[{'title':grafVar1,'color':color1,'datapoints':[{'title':tiempo,'value':valorTemp}]},{'title':grafVar2,'color':color2,'datapoints':[{'title':tiempo,'value':valorHum}]}]}}, indent=3,separators=(',', ': ')))
+       newEntry.write (json.dumps({'graph':{'title':titulo,'type':"line",'yAxis':{'minValue':minVal},'datasequences':[{'title':grafVar1,'color':color1,'datapoints':[{'title':tiempo,'value':valorTemp}]},{'title':grafVar2,'color':color2,'datapoints':[{'title':tiempo,'value':valorPress}]}]}}, indent=3,separators=(',', ': ')))
 
 
 client = mqtt.Client()
