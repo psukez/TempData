@@ -9,14 +9,6 @@
             "color": "red",
             "datapoints": [
                {
-                  "title": "01:50",
-                  "value": "27.11"
-               },
-               {
-                  "title": "02:00",
-                  "value": "27.12"
-               },
-               {
                   "title": "02:00",
                   "value": "27.05"
                },
@@ -59,6 +51,10 @@
                {
                   "title": "03:10",
                   "value": "26.58"
+               },
+               {
+                  "title": "03:20",
+                  "value": "26.48"
                }
             ],
             "title": "Temperatura"
@@ -109,6 +105,10 @@
                {
                   "title": "03:10",
                   "value": "946.37"
+               },
+               {
+                  "title": "03:20",
+                  "value": "946.26"
                }
             ],
             "title": "Presion"
