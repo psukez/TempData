@@ -9,14 +9,6 @@
             "color": "red",
             "datapoints": [
                {
-                  "title": "12:30",
-                  "value": "30.86"
-               },
-               {
-                  "title": "12:30",
-                  "value": "30.9"
-               },
-               {
                   "title": "12:40",
                   "value": "31.26"
                },
@@ -55,6 +47,14 @@
                {
                   "title": "13:40",
                   "value": "29.98"
+               },
+               {
+                  "title": "13:50",
+                  "value": "30.42"
+               },
+               {
+                  "title": "13:50",
+                  "value": "30.4"
                }
             ],
             "title": "Temperatura"
@@ -62,14 +62,6 @@
          {
             "color": "blue",
             "datapoints": [
-               {
-                  "title": "12:30",
-                  "value": "942.37"
-               },
-               {
-                  "title": "12:30",
-                  "value": "942.32"
-               },
                {
                   "title": "12:40",
                   "value": "942.33"
@@ -109,6 +101,14 @@
                {
                   "title": "13:40",
                   "value": "942.12"
+               },
+               {
+                  "title": "13:50",
+                  "value": "942.07"
+               },
+               {
+                  "title": "13:50",
+                  "value": "942.0"
                }
             ],
             "title": "Presion"
