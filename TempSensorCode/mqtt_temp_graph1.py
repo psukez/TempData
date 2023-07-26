@@ -80,5 +80,5 @@ client.on_message = on_message
 
 client.connect("192.168.1.133", 1883, 60)
 client.loop_start()
-time.sleep (10)
+time.sleep (12)
 client.loop_stop(force=False)
